@@ -1,0 +1,36 @@
+section
+	side-bar
+		menu
+			menu:after
+	slider
+		slider__border slider__border_top	
+			logo
+		lightSlider
+			slide
+		slider__border slider__border_bottom	
+			projector                                  інша назва або псевдоелемент?
+			social social_blue
+			name
+	info
+		title
+		decor
+		info__img
+		info__text
+	video
+		title
+		video
+	news
+		title
+		col col_33	
+	gallary
+		title
+		photo
+	partners
+		title
+		a
+	footer
+		copyright
+		social social_pink
+		copyright
+
+

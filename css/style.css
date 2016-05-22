@@ -1,0 +1,232 @@
+header,nav,section,article,aside,footer,time{
+	display:block;
+}
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+html{
+	height:100%;
+}
+body{
+	min-height:100%;
+	min-width:1020px;
+	font-size:100%;
+	background:#fff;
+	color:#000;
+	position:relative;
+	font-family: 'ACLineRegular', serif;
+}
+img{
+	max-width: 100%;
+	border:0;
+}
+/*ul li {*/
+	/*display: inline-block;*/
+/*}*/
+input,textarea,select{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	color: inherit;
+}
+
+/* helping adds*/
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	line-height: 0;
+	content: '';
+}
+.clearfix:after {
+	clear: both;
+}
+.clear {
+	clear:both;
+	font-size:1px;
+	line-height:1px;
+	height:0;
+	overflow:hidden;
+}
+.juster {
+	display:inline-block;
+	width:100%;
+	height:0;
+	overflow:hidden;
+}
+.vfix:before {
+	content:"";
+	height:100%;
+	width:0;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+/* /helping adds*/
+
+/* fonts */
+@font-face {
+	font-family: "ACLineRegular";
+	src: url("../fonts/ACLineRegular/ACLineRegular.eot");
+	src: url("../fonts/ACLineRegular/ACLineRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ACLineRegular/ACLineRegular.woff") format("woff"),
+	url("../fonts/ACLineRegular/ACLineRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'pf_dindisplay_proregular';
+	src: url('../fonts/pfdindisplaypro/pfdindisplaypro-regular-webfont.eot');
+	src: url('../fonts/pfdindisplaypro/pfdindisplaypro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/pfdindisplaypro/pfdindisplaypro-regular-webfont.woff2') format('woff2'),
+	url('../fonts/pfdindisplaypro/pfdindisplaypro-regular-webfont.woff') format('woff'),
+	url('../fonts/pfdindisplaypro/pfdindisplaypro-regular-webfont.ttf') format('truetype'),
+	url('../fonts/pfdindisplaypro/pfdindisplaypro-regular-webfont.svg#pf_dindisplay_proregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* /fonts */
+
+
+
+/* icons styling*/
+/* /icons styling*/
+
+
+/* links styling*/
+a{
+text-decoration: none;
+	color: inherit;
+}
+
+/* /links styling*/
+
+.wrapper{
+	padding: 0 10% 0 30%;
+}
+.resize{
+	width: 1200px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+.float{
+	float:left;
+}
+/*colum*/
+.col {
+	float: left;
+	padding: 0 20px;
+}
+
+.col_33pct {
+	width: 33.33%;
+}
+.col_50pct {
+	width: 50%;
+}
+ /*/column*/
+
+
+ /*menu*/
+.side-bar{
+	position: fixed;
+	top:0;
+	bottom:0;
+	width: 18%;
+	z-index: 2;
+	background: url("../images/sidebar-mask.png");
+}
+.menu{
+	position: relative;
+	display: block;
+	font-family: 'ACLineRegular', serif;
+	font-size: 23px;
+	color: #fefefe;
+	line-height: 3em;
+	margin-top: 270px;
+}
+.menu li{
+	text-decoration: none;
+
+	list-style: none;
+	padding-left: 80px;
+}
+.menu a{
+	border-bottom: dotted 1px #4d41ec;
+	display: inline-block;
+	line-height: 1.7em;
+}
+.menu:after {
+	content: url("../images/fairy.png");
+	position: absolute;
+	top: -50%;
+	margin-top: 170px;
+	left: 200px;
+}
+/*slider section*/
+
+.slider__border {
+	min-height: 125px; 							/*temporarily*/
+	font-style: italic;							/*temporarily*/
+	background-color: #040034;
+	line-height: 1.5em;
+	position: relative;
+}
+.slider__border_bottom {
+	min-height: 165px;
+}
+.logo {
+	position: absolute;
+	width: 190px;
+	height: 110px;
+	background: url("../images/sprite_logo.png")top no-repeat;
+	background-position: 10px -100px;
+	left: 50px;
+}
+.logo:hover {
+	background-position: 10px -100px;
+}
+.name {
+	position: absolute;
+	width: 930px;
+	height: 230px;
+	z-index: 2;
+	background: url("../images/name.png")top no-repeat;
+	top: -50%;
+	left: 50%;
+	margin-left: -465px;
+
+}
+
+/*info*/
+.info {
+	background-color: #b62ebf;
+}
+.info__img {
+	width: 20%;
+	padding: 100px 0;
+}
+.info__text{
+	width: 80%;
+	padding: 100px 10px;
+	color: #fefefe;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-family: 'pf_dindisplay_proregular', sans-serif;
+}
+.info__text p {
+	padding: 10px 0;
+}
+.title {
+	font-family: 'ACLineRegular', serif;
+	font-size: 56px;
+	text-align: center;
+}
+/*video*/
