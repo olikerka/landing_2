@@ -228,5 +228,62 @@ text-decoration: none;
 	font-family: 'ACLineRegular', serif;
 	font-size: 56px;
 	text-align: center;
+	color: #fefefe;
 }
 /*video*/
+/*news*/
+.news{
+	background: #22163e;
+}
+.news__all{
+	margin: 0 -20px;
+	padding-top: 75px;
+	padding-bottom: 55px;
+	background: url(../images/sect-mask.png) no-repeat;
+	background-size: auto 100%;
+}
+.news .title{
+	border-bottom: 1px solid #382278;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.col-wrap{
+	width: 33.33%;
+	padding: 0 20px;
+
+}
+.news__preview{
+	padding: 25px 30px 15px 30px;
+	background: #311c63;
+	min-height: 300px;
+	position: relative;
+}
+.preview__title{
+	color: #ffffff;
+	font-size: 25.41px;
+	line-height: 1.2em;
+	margin-bottom: 15px;
+}
+.preview__text{
+	color: #b292ff;
+	line-height: 2em;
+	font-family: TimesNewRoman, sans-serif;
+	height: 100px;
+	overflow: hidden;
+}
+.preview__date{
+	color: #6321fd;
+	font-size: 90.67px;
+	text-align: center;
+}
+.preview__date span{
+	display: block;
+	font-size: 19.85px;
+}
+.link-more{
+	color: #966cfb;
+	font-size: 72px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
