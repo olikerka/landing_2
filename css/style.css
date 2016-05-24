@@ -239,7 +239,7 @@ text-decoration: none;
 	margin: 0 -20px;
 	padding-top: 75px;
 	padding-bottom: 55px;
-	background: url(../images/sect-mask.png) no-repeat;
+	background: url(../images/sect-mask.png) repeat-x;
 	background-size: auto 100%;
 }
 .news .title{
@@ -247,18 +247,19 @@ text-decoration: none;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
-.col-wrap{
-	width: 33.33%;
+.news .col_33pct{
 	padding: 0 20px;
 
 }
 .news__preview{
+	text-align: center;
 	padding: 25px 30px 15px 30px;
 	background: #311c63;
 	min-height: 300px;
 	position: relative;
 }
 .preview__title{
+	min-height: 2.5em;
 	color: #ffffff;
 	font-size: 25.41px;
 	line-height: 1.2em;
@@ -267,14 +268,14 @@ text-decoration: none;
 .preview__text{
 	color: #b292ff;
 	line-height: 2em;
-	font-family: TimesNewRoman, sans-serif;
+	font-family: pf_dindisplay_proregular, sans-serif;
 	height: 100px;
 	overflow: hidden;
+	word-break: break-all;
 }
 .preview__date{
 	color: #6321fd;
 	font-size: 90.67px;
-	text-align: center;
 }
 .preview__date span{
 	display: block;
@@ -285,5 +286,14 @@ text-decoration: none;
 	font-size: 72px;
 	position: absolute;
 	bottom: 20px;
-	right: 20px;
+	right: 15px;
+}
+.news__preview:hover{
+	background-color: #7c5fc9;
+}
+.news__preview:hover .preview__text, .news__preview:hover a{
+	color: #ffffff;
+}
+.news__preview:hover .preview__date{
+	color: #a781ff;
 }
